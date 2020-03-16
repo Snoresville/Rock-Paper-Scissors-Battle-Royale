@@ -1,0 +1,14 @@
+C:\Users\Reflective\source\repos\Rock Paper Scissors Battle Royale\Rock Paper Scissors Battle Royale\bin\Debug\Rock Paper Scissors Battle Royale.exe.config
+C:\Users\Reflective\source\repos\Rock Paper Scissors Battle Royale\Rock Paper Scissors Battle Royale\bin\Debug\Rock Paper Scissors Battle Royale.exe
+C:\Users\Reflective\source\repos\Rock Paper Scissors Battle Royale\Rock Paper Scissors Battle Royale\bin\Debug\Rock Paper Scissors Battle Royale.pdb
+C:\Users\Reflective\source\repos\Rock Paper Scissors Battle Royale\Rock Paper Scissors Battle Royale\obj\Debug\Rock Paper Scissors Battle Royale.csprojAssemblyReference.cache
+C:\Users\Reflective\source\repos\Rock Paper Scissors Battle Royale\Rock Paper Scissors Battle Royale\obj\Debug\Rock Paper Scissors Battle Royale.csproj.CoreCompileInputs.cache
+C:\Users\Reflective\source\repos\Rock Paper Scissors Battle Royale\Rock Paper Scissors Battle Royale\obj\Debug\Rock Paper Scissors Battle Royale.exe
+C:\Users\Reflective\source\repos\Rock Paper Scissors Battle Royale\Rock Paper Scissors Battle Royale\obj\Debug\Rock Paper Scissors Battle Royale.pdb
+C:\Users\Reflective\source\repos\Rock-Paper-Scissors-Battle-Royale\Rock Paper Scissors Battle Royale\bin\Debug\Rock Paper Scissors Battle Royale.exe.config
+C:\Users\Reflective\source\repos\Rock-Paper-Scissors-Battle-Royale\Rock Paper Scissors Battle Royale\bin\Debug\Rock Paper Scissors Battle Royale.exe
+C:\Users\Reflective\source\repos\Rock-Paper-Scissors-Battle-Royale\Rock Paper Scissors Battle Royale\bin\Debug\Rock Paper Scissors Battle Royale.pdb
+C:\Users\Reflective\source\repos\Rock-Paper-Scissors-Battle-Royale\Rock Paper Scissors Battle Royale\obj\Debug\Rock Paper Scissors Battle Royale.csprojAssemblyReference.cache
+C:\Users\Reflective\source\repos\Rock-Paper-Scissors-Battle-Royale\Rock Paper Scissors Battle Royale\obj\Debug\Rock Paper Scissors Battle Royale.csproj.CoreCompileInputs.cache
+C:\Users\Reflective\source\repos\Rock-Paper-Scissors-Battle-Royale\Rock Paper Scissors Battle Royale\obj\Debug\Rock Paper Scissors Battle Royale.exe
+C:\Users\Reflective\source\repos\Rock-Paper-Scissors-Battle-Royale\Rock Paper Scissors Battle Royale\obj\Debug\Rock Paper Scissors Battle Royale.pdb
