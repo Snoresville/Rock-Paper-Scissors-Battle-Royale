@@ -47,7 +47,7 @@ namespace Rock_Paper_Scissors_Battle_Royale {
             Message("On this day, " + victor.name + "'s name shall be forever remembered in the hall of fame....", 5);
 
             // Records the win
-            using (StreamWriter historian = File.AppendText(@"C:\Users\Reflective\source\repos\Rock Paper Scissors Battle Royale\Hall of Fame.txt")) {
+            using (StreamWriter historian = File.AppendText(@"C:\Users\Reflective\source\repos\Rock-Paper-Scissors-Battle-Royale\Hall of Fame.txt")) {
                 /// Format of the record:
                 // Start Date
                 // Finish Date

@@ -1,0 +1,12 @@
+Start Date: 17/03/2020 4:20:59 AM
+Finish Date: 17/03/2020 8:53:26 PM
+Player Count: 377
+Max Rounds: 9
+Duration: 16:26:32
+Victor: Tsugio Isuzu
+Bias Probability: 0.356386449819611
+Matches won: 172
+Matches lost: 132
+Rounds won: 17
+Rounds lost: 8
+

@@ -11,8 +11,8 @@ namespace Rock_Paper_Scissors_Battle_Royale {
         public double countdownToNextGame = 10;
 
         // Players
-        public readonly int minPlayers = 100;
-        public readonly int maxPlayers = 2000;
+        public readonly int minPlayers = 2;
+        public readonly int maxPlayers = 3000;
 
         public readonly int baseHP = 1;
         public readonly int baseATK = 1;

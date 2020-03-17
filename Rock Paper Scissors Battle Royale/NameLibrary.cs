@@ -49,23 +49,28 @@ namespace Rock_Paper_Scissors_Battle_Royale {
         readonly List<string> namesFirst = new List<string>() {
             // Male
             "John", "Frederick", "Jasper", "Calvin", "Connor",
-            "Ernest",
+            "Ernest", "Frank", "Tyler", "Damian", "Joaquin",
+            "Felix",
 
             // Neutral
             "Adrian", "Taylor", "Robin",
 
 
             // Female
-            "Jane", "Sophie", "Ellen",
+            "Jane", "Sophie", "Ellen", "Karen",
+
+            // Huniepop
+            "Audrey", "Nikki",
 
             // Flowers
-            "Rose", "Lavender",
+            "Rose", "Lavender", "Lily", "Poppy",
+
+            // Seasons
+            "Summer", "Autumn", "Winter", "Spring"
         };
         readonly List<string> namesLast = new List<string>() {
-            // Modern
-            "Bean", "Walker",
-
-            // Early Modern
+            // Generic
+            "Bean", "Walker", "Jones",
             "Baker", "Smith", "Mason",
 
             // Chess
@@ -79,6 +84,9 @@ namespace Rock_Paper_Scissors_Battle_Royale {
 
             // Leaders
             "Hitler", "Stalin", "Khan", "Kjellberg", "Trump",
+
+            // JoJo
+            "Joestar",
         };
 
         // Japanese
