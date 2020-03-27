@@ -36,6 +36,7 @@ namespace Rock_Paper_Scissors_Battle_Royale {
             "{0} manages to block the attack! ({1})",
             "{0} swiftly dodges the attack! ({1})",
             "{0} distracts its opponent... ({1})",
+            "{0} deflects the blow! ({1})",
 
             // Showoff
             "{0} rolled a success in its Charisma DC. ({1})",
@@ -52,10 +53,6 @@ namespace Rock_Paper_Scissors_Battle_Royale {
 
         // When two players fight it out
         public bool Duel(Player player1, Player player2) {
-            Message("Rock...", 0.333);
-            Message("Paper...", 0.333);
-            Message("Scissors!!", 0.334);
-            Console.WriteLine();
             // Endlessly loops until someone wins
             while (true) {
                 // Rolls the actions
@@ -102,6 +99,10 @@ namespace Rock_Paper_Scissors_Battle_Royale {
             Console.WriteLine("{0} vs {1}", player1.name, player2.name);
             Message("----------", 1);
 
+            Message("Rock...", 0.333);
+            Message("Paper...", 0.333);
+            Message("Scissors!!", 0.334);
+
             // Player stats
             int player1HP = player1.MaxHealth();
             int player1MAXHP = player1HP;
@@ -128,7 +129,6 @@ namespace Rock_Paper_Scissors_Battle_Royale {
                         if (settings.sound) Console.Beep(800, 250);
                         Message(string.Format(attackDamaged[rnd.Next(attackDamaged.Count)], player2.name, player2HP, player2MAXHP), 0.25);
                     }
-                    Console.WriteLine();
                 }
                 else {
                     // If player 1 can block it
@@ -144,8 +144,7 @@ namespace Rock_Paper_Scissors_Battle_Royale {
                         if (settings.sound) Console.Beep(800, 250);
                         Message(string.Format(attackDamaged[rnd.Next(attackDamaged.Count)], player1.name, player1HP, player1MAXHP), 0.25);
                     }
-
-                    Console.WriteLine();
+                    
                 }
             }
 
@@ -164,7 +163,7 @@ namespace Rock_Paper_Scissors_Battle_Royale {
             winner.results.roundwins++;
             loser.results.roundlosses++;
             Message(string.Format(roundOver[rnd.Next(roundOver.Count)], winner.name, loser.name), 1);
-            Console.WriteLine();
+            //Console.WriteLine();
         }
 
     }

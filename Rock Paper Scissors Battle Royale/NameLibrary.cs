@@ -50,14 +50,15 @@ namespace Rock_Paper_Scissors_Battle_Royale {
             // Male
             "John", "Frederick", "Jasper", "Calvin", "Connor",
             "Ernest", "Frank", "Tyler", "Damian", "Joaquin",
-            "Felix",
+            "Felix", "Jason", "Albert", "Stephen", "Thomas",
+            "Tom", "Alexander", "Nikola", "Henry",
 
             // Neutral
             "Adrian", "Taylor", "Robin",
 
 
             // Female
-            "Jane", "Sophie", "Ellen", "Karen",
+            "Jane", "Sophie", "Ellen", "Karen", "Claire",
 
             // Huniepop
             "Audrey", "Nikki",
@@ -76,23 +77,36 @@ namespace Rock_Paper_Scissors_Battle_Royale {
             // Chess
             "Kasparov", "Carlsen", "Fischer",
 
+            // Piano
+            "Beethoven", "Chopin", "Mozart", "Bach", "Debussy",
+            "Grieg",
+
+            // Inventors/Scientists
+            "Edison", "Graham Bell", "Franklin", "Tesla", "Leibniz",
+            "Wright", "da Vinci", "Ford", "Einstein", "Newton",
+            "Morse", "Watt", "Archimedes", "Galilei", "Whitney",
+            "Carver", "Marconi", "Babbage", "Watt", "Gates",
+            "Jobs", "Faraday", "Nobel", "Diesel", "Fleming",
+            "Braille", "Turing", "Volt", "Hawking",
+
             // Roman
             "Kaiser", "Caesar",
 
             // Fantasy - Celestial
-            "Starlight", "Moondancer",
+            "Starlight", "Moondancer", "Dragonfire", "Whirlwind",
 
             // Leaders
             "Hitler", "Stalin", "Khan", "Kjellberg", "Trump",
+            "bin Laden",
 
             // JoJo
-            "Joestar",
+            "Joestar", "Giovanna", "Cujoh",
         };
 
         // Japanese
         readonly List<string> namesFirstJapanese = new List<string>() {
-            // Fictional..?
-            "Yamato", "Mikage", "Kamigahara",
+            // Generic
+            "Yamato", "Mikage", "Kamigahara", "Mio",
 
             // Sons
             "Ichiro", "Taro", "Shinichi", "Hajime",
@@ -100,25 +114,28 @@ namespace Rock_Paper_Scissors_Battle_Royale {
             "Saburo", "Shinzo", "Keizo",
             "Shiro",
             "Goro",
-            //"Rokuro",
-            //"Shichiro",
-            //"Hachiro",
+            "Rokuro",
+            "Shichiro",
+            "Hachiro",
             "Kuro",
-            //"Juro",
+            "Juro",
 
             // Daughters
             "Hatsuko",
 
-            "Aki",
-            "Haru", "Himawari",
-            "Natsu",
-            "Fuyu", "Yuki",
+            "Akiko",
+            "Haruko", "Himawari",
+            "Natsuko",
+            "Fuuko", "Yukiko",
 
             // Female
             "Kirigiri", "Chiaki", "Kaede",
+            "Fubuki",
         };
         readonly List<string> namesLastJapanese = new List<string>() {
             "Nadeshiko",
+
+            "Kujo",
 
             // Danganronpa
             "Kyouko", "Nanami", "Akamatsu",
@@ -134,6 +151,9 @@ namespace Rock_Paper_Scissors_Battle_Royale {
 
             // Animal
             "Inugami", "Nekoyama",
+
+            // VTuber
+            "Hoshimachi", "Suzuhara", "Usada", "Shirakami", "Natsuiro",
         };
 
         // Suffixes

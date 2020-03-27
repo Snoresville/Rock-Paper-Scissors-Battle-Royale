@@ -61,7 +61,7 @@ namespace Rock_Paper_Scissors_Battle_Royale {
             return settings.baseHP + results.HPBonus(settings);
         }
         public double BlockChance() {
-            return Math.Min((double)(results.matchlosses - 1) / (results.matchlosses + results.matchwins * 4), 0.8);
+            return Math.Min((double)(results.matchlosses - 1) / (results.matchlosses + results.matchwins * 3), 0.8);
         }
 
         // Recording and Playing Rolls

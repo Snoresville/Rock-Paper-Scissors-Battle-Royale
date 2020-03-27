@@ -8,6 +8,7 @@ namespace Rock_Paper_Scissors_Battle_Royale {
     class Settings {
         // Meta
         public bool sound = false;
+        public int gameSpeed = 3;
         public double countdownToNextGame = 10;
 
         // Players
@@ -23,12 +24,13 @@ namespace Rock_Paper_Scissors_Battle_Royale {
         public readonly int matchLossHPGain = 0;
         public readonly int roundLossHPGain = 1;
 
-        // Loss condition
+        // Game Loss condition
+        public readonly bool roundLossLimitOffsetEnable = false;
         public readonly int roundLossLimitOffset = 2;
 
         public readonly bool roundLossLimitRandomise = true;
         public readonly int roundLossLimitOffsetMin = 1;
-        public readonly int roundLossLimitOffsetMax = 2;
+        public readonly int roundLossLimitOffsetMax = 5;
 
         // Variables
         public Random rnd = new Random();
@@ -41,11 +43,15 @@ namespace Rock_Paper_Scissors_Battle_Royale {
         // Initialising Game
         public Settings() {
             playerCount = rnd.Next(minPlayers, maxPlayers + 1);
-            roundLossLimitOffset = rnd.Next(roundLossLimitOffsetMin, roundLossLimitOffsetMax + 1);
+            if (roundLossLimitOffsetEnable) {
+                if (roundLossLimitRandomise == true) roundLossLimitOffset = rnd.Next(roundLossLimitOffsetMin, roundLossLimitOffsetMax + 1);
+                else roundLossLimitOffset = 2;
+            }
+            else roundLossLimitOffset = 0;
 
             // Formula for the maximum amount of losses is:
             // floor (log(base 2) playerCount) + roundLossLimitOffset
-            double logPlayer = Math.Floor(Math.Log(playerCount, 2));
+            double logPlayer = Math.Floor(Math.Log(playerCount, Math.Pow(2, gameSpeed)));
             roundLossLimit = (int)logPlayer + roundLossLimitOffset;
 
         }

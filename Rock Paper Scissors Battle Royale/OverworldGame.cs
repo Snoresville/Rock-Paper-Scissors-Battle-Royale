@@ -64,6 +64,7 @@ namespace Rock_Paper_Scissors_Battle_Royale {
                 historian.WriteLine("Player Count: " + settings.playerCount);
                 historian.WriteLine("Max Rounds: " + settings.roundLossLimit);
                 historian.WriteLine("Duration: " + TimeSpan.FromSeconds(durationSeconds));
+                historian.WriteLine("Game Speed: " + settings.gameSpeed);
                 historian.WriteLine("Victor: " + victor.name);
                 historian.WriteLine("Bias Probability: " + victor.biasProbability);
                 historian.WriteLine("Matches won: " + victor.results.matchwins);
@@ -78,6 +79,7 @@ namespace Rock_Paper_Scissors_Battle_Royale {
             Console.WriteLine("Player Count: " + settings.playerCount);
             Console.WriteLine("Max Rounds: " + settings.roundLossLimit);
             Console.WriteLine("Duration: " + TimeSpan.FromSeconds(durationSeconds));
+            Console.WriteLine("Game Speed: " + settings.gameSpeed);
             Console.WriteLine("Victor: " + victor.name);
             Console.WriteLine("Bias Probability: " + victor.biasProbability);
             Console.WriteLine("Matches won: " + victor.results.matchwins);
