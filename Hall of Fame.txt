@@ -1,39 +1,78 @@
+Victor: Tsugio Isuzu
 Start Date: 17/03/2020 4:20:59 AM
 Finish Date: 17/03/2020 8:53:26 PM
 Player Count: 377
 Max Rounds: 9
 Duration: 16:26:32
 Game Speed: 1
-Victor: Tsugio Isuzu
 Bias Probability: 0.356386449819611
 Matches won: 172
 Matches lost: 132
 Rounds won: 17
 Rounds lost: 8
 
+Victor: Nokezaryo Yosojuranupa
 Start Date: 17/03/2020 9:27:46 PM
 Finish Date: 25/03/2020 1:03:15 PM
 Player Count: 2018
 Max Rounds: 11
 Duration: 4.14:44:59
 Game Speed: 1
-Victor: Nokezaryo Yosojuranupa
 Bias Probability: 0.553632462189362
 Matches won: 301
 Matches lost: 259
 Rounds won: 24
 Rounds lost: 10
 
+Victor: Keizo Hoshimachi
 Start Date: 25/03/2020 1:10:05 PM
 Finish Date: 27/03/2020 3:51:45 PM
 Player Count: 1246
 Max Rounds: 10
 Duration: 1.09:28:40
-Victor: Keizo Hoshimachi
 Game Speed: 1
 Bias Probability: 0.403502792307876
 Matches won: 246
 Matches lost: 223
 Rounds won: 22
 Rounds lost: 9
+
+Victor: Jasper Franklin
+Start Date: 27/03/2020 4:10:15 PM
+Finish Date: 28/03/2020 12:02:03 AM
+Player Count: 1876
+Max Rounds: 3
+Duration: 07:49:29
+Game Speed: 3
+Bias Probability: 0.0797855351491764
+Matches won: 45
+Matches lost: 21
+Rounds won: 13
+Rounds lost: 2
+
+Victor: Nyuhyoreafu Mugewokupehyu
+Start Date: 28/03/2020 12:44:13 AM
+Finish Date: 28/03/2020 3:28:59 AM
+Player Count: 431
+Max Rounds: 4
+Duration: 02:43:31
+Game Speed: 2
+Bias Probability: 0.611164712166025
+Matches won: 54
+Matches lost: 52
+Rounds won: 13
+Rounds lost: 3
+
+Victor: Rejiaonuanxiang Chongfangyong
+Start Date: 28/03/2020 3:29:14 AM
+Finish Date: 29/03/2020 7:11:04 PM
+Player Count: 2566
+Max Rounds: 5
+Duration: 22:30:05
+Game Speed: 2
+Bias Probability: 0.816323457665892
+Matches won: 78
+Matches lost: 46
+Rounds won: 16
+Rounds lost: 4
 

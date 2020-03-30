@@ -59,13 +59,13 @@ namespace Rock_Paper_Scissors_Battle_Royale {
                 // Match Wins, Losses, Round Wins, Losses
                 // (blank space)
 
+                historian.WriteLine("Victor: " + victor.name);
                 historian.WriteLine("Start Date: " + startDate);
                 historian.WriteLine("Finish Date: " + DateTime.Now.ToString());
                 historian.WriteLine("Player Count: " + settings.playerCount);
                 historian.WriteLine("Max Rounds: " + settings.roundLossLimit);
                 historian.WriteLine("Duration: " + TimeSpan.FromSeconds(durationSeconds));
                 historian.WriteLine("Game Speed: " + settings.gameSpeed);
-                historian.WriteLine("Victor: " + victor.name);
                 historian.WriteLine("Bias Probability: " + victor.biasProbability);
                 historian.WriteLine("Matches won: " + victor.results.matchwins);
                 historian.WriteLine("Matches lost: " + victor.results.matchlosses);
@@ -74,13 +74,13 @@ namespace Rock_Paper_Scissors_Battle_Royale {
                 historian.WriteLine("");
             }
             Console.WriteLine("");
+            Console.WriteLine("Victor: " + victor.name);
             Console.WriteLine("Start Date: " + startDate);
             Console.WriteLine("Finish Date: " + DateTime.Now.ToString());
             Console.WriteLine("Player Count: " + settings.playerCount);
             Console.WriteLine("Max Rounds: " + settings.roundLossLimit);
             Console.WriteLine("Duration: " + TimeSpan.FromSeconds(durationSeconds));
             Console.WriteLine("Game Speed: " + settings.gameSpeed);
-            Console.WriteLine("Victor: " + victor.name);
             Console.WriteLine("Bias Probability: " + victor.biasProbability);
             Console.WriteLine("Matches won: " + victor.results.matchwins);
             Console.WriteLine("Matches lost: " + victor.results.matchlosses);

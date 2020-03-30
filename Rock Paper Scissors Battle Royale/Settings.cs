@@ -8,7 +8,7 @@ namespace Rock_Paper_Scissors_Battle_Royale {
     class Settings {
         // Meta
         public bool sound = false;
-        public int gameSpeed = 3;
+        public int gameSpeed = 2;
         public double countdownToNextGame = 10;
 
         // Players
